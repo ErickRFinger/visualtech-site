@@ -1,0 +1,54 @@
+/* Exemplo de início do seu App.css limpo */
+body {
+  background: #111;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+}
+
+/* ...demais regras CSS do seu layout... */
+.diferenciais-section {
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+.diferenciais-section h2 {
+  color: #ffe600;
+  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+  font-size: 1.7rem;
+  margin-bottom: 1.2rem;
+  text-shadow: 0 0 16px #ffe60088, 2px 2px 8px #000a;
+}
+.diferenciais-lista {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+.diferencial-card {
+  background: rgba(24,24,24,0.95);
+  border: 2px solid #ffe600;
+  border-radius: 12px;
+  padding: 1.2rem 2rem;
+  color: #ffe600;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  box-shadow: 0 0 16px #ffe60033;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+}
+.diferencial-card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 32px #ffe60088;
+  background: #181818;
+  color: #fff200;
+}
+@media (max-width: 900px) {
+  .diferenciais-lista {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+} 
