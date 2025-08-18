@@ -1,4 +1,4 @@
-/* Reset e configurações base */
+/* CSS básico para Visual Tech */
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +6,9 @@
 }
 
 body {
-  background: #111;
+  background: #000;
   color: #fff;
-  font-family: 'Segoe UI', Arial, sans-serif;
-  margin: 0;
-  overflow-x: hidden;
+  font-family: Arial, sans-serif;
 }
 
 /* Tela de boas-vindas */
@@ -20,15 +18,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-  position: relative;
-}
-
-.tela-boasvindas-animada {
-  animation: fadeIn 1s ease-in;
-}
-
-.tela-boasvindas-centralizada {
+  background: #000;
   text-align: center;
 }
 
@@ -36,90 +26,45 @@ body {
   width: 200px;
   height: auto;
   margin-bottom: 2rem;
-  animation: logoFloat 3s ease-in-out infinite;
-}
-
-.icones-dispositivo {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
-.icone-device {
-  font-size: 2rem;
-  animation: pulse 2s infinite;
 }
 
 .titulo-bemvindo {
   font-size: 3rem;
   color: #ffe600;
   margin-bottom: 1rem;
-  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
-  text-shadow: 0 0 20px #ffe60088;
 }
 
 .subtitulo-bemvindo {
   font-size: 1.5rem;
   color: #ccc;
   margin-bottom: 2rem;
-  line-height: 1.6;
-}
-
-.msg-device {
-  color: #ffe600;
-  font-weight: bold;
-}
-
-.barra-progresso {
-  width: 300px;
-  height: 6px;
-  background: #333;
-  border-radius: 3px;
-  margin: 2rem 0;
-  overflow: hidden;
-}
-
-.progresso {
-  height: 100%;
-  background: linear-gradient(90deg, #ffe600, #ffaa00);
-  animation: progresso 2.5s ease-in-out;
-  border-radius: 3px;
 }
 
 .btn-entrar {
-  background: linear-gradient(45deg, #ffe600, #ffaa00);
+  background: #ffe600;
   color: #000;
   border: none;
   padding: 15px 40px;
   font-size: 1.2rem;
   font-weight: bold;
-  border-radius: 50px;
+  border-radius: 25px;
   cursor: pointer;
-  transition: all 0.3s ease;
-  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
-  box-shadow: 0 4px 15px rgba(255, 230, 0, 0.3);
-}
-
-.btn-entrar:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 230, 0, 0.5);
 }
 
 /* Layout principal */
 .layout-visualtech {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  background: #000;
 }
 
 /* Header */
 .header-visualtech-central {
-  background: rgba(0, 0, 0, 0.9);
+  background: #111;
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid #ffe600;
-  box-shadow: 0 2px 20px rgba(255, 230, 0, 0.2);
 }
 
 .logo-central {
@@ -130,7 +75,6 @@ body {
 .menu-central {
   display: flex;
   gap: 1rem;
-  flex-wrap: wrap;
 }
 
 .menu-central button {
@@ -141,15 +85,12 @@ body {
   border-radius: 25px;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
-  font-size: 0.9rem;
 }
 
 .menu-central button:hover,
 .menu-central button.active {
   background: #ffe600;
   color: #000;
-  box-shadow: 0 0 20px rgba(255, 230, 0, 0.5);
 }
 
 /* Main content */
@@ -165,12 +106,11 @@ body {
 }
 
 .card-inicial {
-  background: rgba(0, 0, 0, 0.7);
+  background: #111;
   border: 2px solid #ffe600;
   border-radius: 20px;
   padding: 3rem;
   margin-bottom: 3rem;
-  box-shadow: 0 0 30px rgba(255, 230, 0, 0.2);
 }
 
 .logo-inicial {
@@ -181,7 +121,6 @@ body {
 
 .destaque-amarelo {
   color: #ffe600;
-  text-shadow: 0 0 20px #ffe60088;
 }
 
 .slogan-inicial {
@@ -208,42 +147,32 @@ body {
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
-  transition: all 0.3s ease;
-  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+  color: #fff;
 }
 
 .cta-btn {
-  background: linear-gradient(45deg, #ffe600, #ffaa00);
+  background: #ffe600;
   color: #000;
 }
 
 .whatsapp-btn {
   background: #25d366;
-  color: #fff;
 }
 
 .instagram-btn {
-  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-  color: #fff;
-}
-
-.cta-btn:hover, .whatsapp-btn:hover, .instagram-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  background: #e4405f;
 }
 
 /* Diferenciais */
 .diferenciais-section {
-  margin: 2rem 0 0 0;
+  margin: 2rem 0;
   text-align: center;
 }
 
 .diferenciais-section h2 {
   color: #ffe600;
-  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
   font-size: 1.7rem;
   margin-bottom: 1.2rem;
-  text-shadow: 0 0 16px #ffe60088, 2px 2px 8px #000a;
 }
 
 .diferenciais-lista {
@@ -255,7 +184,7 @@ body {
 }
 
 .diferencial-card {
-  background: rgba(24,24,24,0.95);
+  background: #111;
   border: 2px solid #ffe600;
   border-radius: 12px;
   padding: 1.2rem 2rem;
@@ -264,29 +193,15 @@ body {
   display: flex;
   align-items: center;
   gap: 0.7rem;
-  box-shadow: 0 0 16px #ffe60033;
-  transition: transform 0.2s, box-shadow 0.2s;
-  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
-}
-
-.diferencial-card:hover {
-  transform: scale(1.07);
-  box-shadow: 0 0 32px #ffe60088;
-  background: #181818;
-  color: #fff200;
 }
 
 /* Seções gerais */
-.quem-somos-section, .servicos-section, .orcamentos-section, .planos-section, .tecnica-section {
-  margin-top: 2rem;
-}
-
 .card-sobre-mim {
-  background: rgba(0, 0, 0, 0.7);
+  background: #111;
   border: 2px solid #ffe600;
   border-radius: 20px;
   padding: 2rem;
-  box-shadow: 0 0 30px rgba(255, 230, 0, 0.2);
+  margin-top: 2rem;
 }
 
 .card-sobre-mim h2 {
@@ -294,7 +209,6 @@ body {
   font-size: 2rem;
   margin-bottom: 1rem;
   text-align: center;
-  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
 }
 
 .quem-somos-texto {
@@ -338,20 +252,13 @@ body {
   padding: 12px;
   border: 2px solid #333;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.1);
+  background: #111;
   color: #fff;
   font-size: 1rem;
 }
 
-.form-orcamento input:focus,
-.form-orcamento textarea:focus {
-  outline: none;
-  border-color: #ffe600;
-  box-shadow: 0 0 10px rgba(255, 230, 0, 0.3);
-}
-
 .form-orcamento button {
-  background: linear-gradient(45deg, #ffe600, #ffaa00);
+  background: #ffe600;
   color: #000;
   border: none;
   padding: 15px;
@@ -359,18 +266,11 @@ body {
   font-size: 1.1rem;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s ease;
-  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
-}
-
-.form-orcamento button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(255, 230, 0, 0.3);
 }
 
 /* Planos */
 .plano-card {
-  background: rgba(24, 24, 24, 0.9);
+  background: #111;
   border: 2px solid #ffe600;
   border-radius: 15px;
   padding: 2rem;
@@ -381,7 +281,6 @@ body {
 .plano-card h3 {
   color: #ffe600;
   margin-bottom: 1rem;
-  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
 }
 
 .preco-plano {
@@ -389,7 +288,6 @@ body {
   color: #ffe600;
   font-weight: bold;
   margin: 1rem 0;
-  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
 }
 
 /* Técnico */
@@ -399,7 +297,6 @@ body {
   display: block;
   text-align: center;
   margin-bottom: 1rem;
-  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
 }
 
 /* Footer */
@@ -409,27 +306,6 @@ body {
   color: #666;
   border-top: 1px solid #333;
   margin-top: 3rem;
-}
-
-/* Animações */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes logoFloat {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-}
-
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.1); }
-}
-
-@keyframes progresso {
-  0% { width: 0%; }
-  100% { width: 100%; }
 }
 
 /* Responsividade */
