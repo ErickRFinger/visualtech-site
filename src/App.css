@@ -515,6 +515,7 @@ body {
   font-weight: 700;
   margin: 1.5rem 0;
   text-shadow: 0 0 20px rgba(255, 230, 0, 0.3);
+  flex-grow: 1;
 }
 
 /* Técnico */
@@ -644,7 +645,8 @@ body {
   }
   
   .plano-card {
-    padding: 2rem 1.5rem;
+    padding: 2rem 1.5rem 3rem 1.5rem;
+    min-height: 350px;
   }
   
   .titulo-bemvindo {
@@ -709,6 +711,7 @@ body {
   }
   
   .plano-card {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 1rem 2.5rem 1rem;
+    min-height: 320px;
   }
 } 
