@@ -121,15 +121,15 @@ function App() {
             <div className="card-sobre-mim">
               <h2>Serviços</h2>
               <ul className="servicos-lista">
-                <li><strong>Formatação Windows 10</strong> — R$ 140,00</li>
-                <li><strong>Formatação Windows 11</strong> — R$ 170,00</li>
-                <li><strong>Clonagem de Windows para outro computador ou disco</strong> — R$ 150,00</li>
+                <li><strong>Formatação Windows 10</strong> — R$ 180,00</li>
+                <li><strong>Formatação Windows 11</strong> — R$ 200,00</li>
+                <li><strong>Clonagem de Windows para outro computador ou disco</strong> — R$ 250,00</li>
                 <li><strong>Montagem de Computador</strong> — R$ 350,00</li>
-                <li><strong>Limpeza de computador + Otimização</strong> — R$ 100,00</li>
-                <li><strong>Otimização completa de sistema</strong> — R$ 40,00</li>
-                <li><strong>Otimização Windows</strong> — R$ 5,00</li>
-                <li><strong>Otimização Windows + CS2</strong> — R$ 20,00</li>
-                <li><strong>Otimização Windows + Redução de Input Lag + CS2</strong> — R$ 30,00</li>
+                <li><strong>Limpeza de computador + Otimização</strong> — R$ 200,00</li>
+                <li><strong>Otimização completa de sistema</strong> — R$ 50,00</li>
+                <li><strong>Otimização Windows</strong> — R$ 20,00</li>
+                <li><strong>Otimização Windows + CS2</strong> — R$ 35,00</li>
+                <li><strong>Otimização Windows + Redução de Input Lag + CS2</strong> — R$ 50,00</li>
                 <li><strong>Aluguel do aplicativo de Otimização (desenvolvimento próprio)</strong> — R$ 10,00/mês</li>
               </ul>
             </div>
@@ -183,3 +183,4 @@ function App() {
 
 
 export default App 
+
