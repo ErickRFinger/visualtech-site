@@ -130,7 +130,7 @@ function App() {
                 <li><strong>Otimização Windows</strong> — R$ 5,00</li>
                 <li><strong>Otimização Windows + CS2</strong> — R$ 20,00</li>
                 <li><strong>Otimização Windows + Redução de Input Lag + CS2</strong> — R$ 30,00</li>
-                <li><strong>Aluguel do aplicativo de Otimização (desenvolvimento próprio)</strong> — R$ 5,00/mês</li>
+                <li><strong>Aluguel do aplicativo de Otimização (desenvolvimento próprio)</strong> — R$ 10,00/mês</li>
               </ul>
             </div>
           </section>
@@ -180,5 +180,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App 
