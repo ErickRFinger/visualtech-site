@@ -15,7 +15,7 @@ function isMobileDevice() {
   return /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
 }
 
-const quemSomosTexto = `A Visual Tech é uma empresa fundada em 2024 por Erick Finger, dedicada a oferecer soluções completas e inovadoras em tecnologia e computação. Atuamos desde a montagem e manutenção de computadores até o desenvolvimento de sistemas personalizados e tecnologias próprias, sempre com foco em qualidade, confiança e excelência no atendimento.`
+const quemSomosTexto = `A VisualTech é uma empresa fundada em 2024 por Erick Finger, dedicada a oferecer soluções completas e inovadoras em tecnologia e computação. Atuamos desde a montagem e manutenção de computadores até o desenvolvimento de sistemas personalizados e tecnologias próprias, sempre com foco em qualidade, confiança e excelência no atendimento.`
 
 function App() {
   const [form, setForm] = useState({ nome: '', email: '', telefone: '', mensagem: '' })
@@ -176,13 +176,14 @@ function App() {
           </section>
         )}
       </main>
-      <footer className="footer-discreto">2025 - Todos os direitos reservados a Visual Tech</footer>
+      <footer className="footer-discreto">2025 - Todos os direitos reservados a VisualTech</footer>
     </div>
   )
 }
 
 
 export default App 
+
 
 
 
